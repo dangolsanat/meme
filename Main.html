@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Springboard Meme Generator</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="stylesheet.css">
+    </head>
+    <body>
+       <h1 class="head">Springboard Meme Generator</h1>
+       <br>
+       <br>
+       <h2>
+            <form class="h2Text" action="" id="htmlParent">
+                <label for="htmlParent">Paste image link: </label>
+                    <input type="text" id="htmlLink">
+                    <label for="topText">Text on the top: </label>
+                    <input type="text" id="topInputText">
+                    <label for="bottomText">Text on the Bottom:  </label>
+                <input type="text" id="bottomInputText">
+                    <button id="html">Submit</button>
+            </form>
+        </h2>
+
+        <!-- <h2>
+            <form class="h2Text" action="" id="topText">
+                    <label for="topText">Text on the top: </label>
+                    <input type="text" id="topTextInput">
+                     <button id="topTextButton" onclick="topTextPrint()">Submit</button> -->
+            <!-- </form>
+         </h2> -->
+         <!-- <h2 >
+            <form class="h2Text" action="" id="bottomText">
+                <label for="bottomText">Text on the Bottom:  </label>
+                <input type="text" id="bottomTextInput">
+                 <button id="bottomTextButton" onclick="bottomTextPrint()">Submit</button> -->
+            <!-- </form>
+         </h2> --> 
+         <h2 >
+            <form class="h2Text" action="" id="whiteColor">
+                <label for="colorWhite"> </label>
+                <button id="whiteButton" onclick="colorChange()">Change text color</button>
+            </form>
+         </h2>
+       
+<div class="justify" id="parentDiv">
+    <div id="image">
+    </div>
+    <div id="tt" class="ttxt"></div>
+    <div id="bt" class="btxt"></div>
+</div>
+        <script src="app.js" async defer></script>
+    </body>
+</html>
